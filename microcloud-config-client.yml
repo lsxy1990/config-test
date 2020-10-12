@@ -4,7 +4,7 @@ spring:
         - dev
 ---
 server:
-  port: 4101
+  port: 3001
 
 spring:
   profiles: dev
@@ -17,7 +17,7 @@ eureka:
     defaultZone: http://localhost:7001/eureka
 ---
 server:
-  port: 4102
+  port: 3002
 
 spring:
   profiles: beta
