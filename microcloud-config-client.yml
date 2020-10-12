@@ -18,8 +18,8 @@ eureka:
   register-with-eureka: false
   
 info:
-  app.name: microcloud-provider-product1122
-  company.name: enjoy2233
+  app.name: microcloud-provider-product112
+  company.name: enjoy223
   build.artifactId: $project.artifactId$
   build.modelVersion: $project.modelVersion$
   
