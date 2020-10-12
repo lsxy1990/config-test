@@ -16,6 +16,12 @@ eureka:
   service-url:
     defaultZone: http://localhost:7001/eureka
   register-with-eureka: false
+  
+info:
+  app.name: microcloud-provider-product
+  company.name: enjoy
+  build.artifactId: $project.artifactId$
+  build.modelVersion: $project.modelVersion$
 ---
 server:
   port: 3002
