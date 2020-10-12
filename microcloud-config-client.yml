@@ -23,11 +23,6 @@ info:
   build.artifactId: $project.artifactId$
   build.modelVersion: $project.modelVersion$
   
-management:
-  endpoints:
-    web:
-      exposure:
-        include: '*'
 ---
 server:
   port: 3002
@@ -49,8 +44,3 @@ info:
   build.artifactId: $project.artifactId$
   build.modelVersion: $project.modelVersion$
   
-management:
-  endpoints:
-    web:
-      exposure:
-        include: '*'
