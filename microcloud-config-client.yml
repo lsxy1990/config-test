@@ -18,8 +18,8 @@ eureka:
   register-with-eureka: false
   
 info:
-  app.name: provider-client
-  company.name: ljb
+  app.name: provider-client123
+  company.name: ljb123
   build.artifactId: $project.artifactId$
   build.modelVersion: $project.modelVersion$
   
